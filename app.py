@@ -19,9 +19,8 @@ def get_hit_count():
 
 @app.route('/')
 def hello():
-    count = get_hit_count()
-    teams = ["Nacional", "Medellin", "Junior", "Jaguares"]
-    return "Pulsa Actualizar si crees que {} es el mejor equipo de fútbol del mundo. Solo has actualizado {} veces. REFRESCA MAS!!!\n".format(teams[random.randint(0,3)], count)
+    count = get_hit_count()    
+    return "Pulsa Actualizar si crees que Junior es el mejor equipo de fútbol del mundo. Solo has actualizado {} veces. REFRESCA MAS!!!\n".format(count)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)

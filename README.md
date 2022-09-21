@@ -1,5 +1,5 @@
-# Simple counter-app for demonstrating Docker Compose
-Simple flask app that counts web site visits and stores in a default Redis backend.
+#Aplicación de contador simple para demostrar Docker Compose
+Aplicación simple que cuenta las visitas al sitio web y las almacena en un backend predeterminado de Redis.
 
 **References:**
 - Getting Started with Docker video training course

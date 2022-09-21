@@ -1,4 +1,4 @@
-#Aplicación de contador simple para demostrar Docker Compose
+# Aplicación de contador simple para demostrar Docker Compose
 Aplicación simple que cuenta las visitas al sitio web y las almacena en un backend predeterminado de Redis.
 
 **References:**
